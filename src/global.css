@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --caption: Inter;
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --sectionheading-size: 18px;
+  --caption-size: 10px;
+  --font-size-xs: 12px;
+  --font-size-base: 16px;
+
+  /* Colors */
+  --fgdefault: #fcfcfc;
+  --color-gray-100: #2c2c2c;
+  --color-gray-200: #1f1f22;
+  --fgsubtle: #9898a6;
+  --color-crimson: #ef2f62;
+  --highlightfg: #00ffff;
+  --color-lavender-100: rgba(229, 238, 255, 0.65);
+  --actionborder: rgba(235, 235, 255, 0.05);
+  --color-dimgray: #63686e;
+  --color-silver: #c4c4c4;
+
+  /* Gaps */
+  --gap-3xs: 10px;
+
+  /* Paddings */
+  --padding-9xs: 4px;
+  --padding-xs: 12px;
+  --padding-3xs: 10px;
+  --padding-11xs: 2px;
+
+  /* Border radiuses */
+  --br-5xs: 8px;
+  --br-980xl: 999px;
+  --br-xs: 12px;
+
+  /* Effects */
+  --elevation-md: 0px 2.2px 5.5px rgba(0, 0, 0, 0.1);
+  --elevation-xl: 0px 8px 28px rgba(0, 0, 0, 0.4);
+}
